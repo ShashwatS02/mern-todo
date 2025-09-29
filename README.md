@@ -1,6 +1,6 @@
 MERN Stack To-Do List Application
 <p align="center">
-<img src="https://www.google.com/search?q=https://placehold.co/700x350/5c67f2/FFFFFF%3Ftext%3DMERN%2BTo-Do%2BApp%26font%3Draleway" alt="Project Banner">
+<img src="https://www.google.com/url?sa=E&source=gmail&q=https://placehold.co/700x350/5c67f2/FFFFFF?text=MERN+To-Do+App%26font=raleway" alt="Project Banner">
 </p>
 
 A clean, simple, and full-stack To-Do List application built with the MERN stack (MongoDB, Express.js, React.js, and Node.js). This project demonstrates the fundamentals of building a modern web application, including creating a RESTful API, managing state on the frontend, and connecting to a database.
