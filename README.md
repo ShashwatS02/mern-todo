@@ -89,12 +89,10 @@ mern-todo-app/
 │   ├── routes/
 │   ├── .env                # (You create this)
 │   └── server.js
-│
 ├── frontend/               # React client
 │   ├── public/
 │   ├── src/
 │   └── ...
-│
 ├── .gitignore              # Files to be ignored by Git
 └── README.md
 
