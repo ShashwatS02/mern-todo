@@ -1,104 +1,113 @@
-MERN Stack To-Do List Application
+# 📝 MERN Stack To-Do List Application
+
 <p align="center">
   <img src="https://placehold.co/700x350/5c67f2/FFFFFF?text=MERN+To-Do+App&font=raleway" alt="Project Banner">
 </p>
 
-A clean, simple, and full-stack To-Do List application built with the MERN stack (MongoDB, Express.js, React.js, and Node.js). This project demonstrates the fundamentals of building a modern web application, including creating a RESTful API, managing state on the frontend, and connecting to a database.
+A clean, simple, and full-stack **To-Do List application** built with the **MERN stack** (MongoDB, Express.js, React.js, and Node.js).  
+This project demonstrates the fundamentals of building a modern web application, including:
 
-✨ Features
-📝 Add Tasks: Quickly add new tasks to your list.
+- Creating a RESTful API
+- Managing state on the frontend
+- Connecting to a database for persistence
 
-✅ Mark as Complete: Toggle tasks between complete and incomplete with a single click.
+---
 
-🗑️ Delete Tasks: Easily remove tasks you no longer need.
+## ✨ Features
 
-🚀 Full Stack: Built with a RESTful API backend and a dynamic React frontend.
+- 📝 **Add Tasks** – Quickly add new tasks to your list.  
+- ✅ **Mark as Complete** – Toggle tasks between complete and incomplete with a single click.  
+- 🗑️ **Delete Tasks** – Easily remove tasks you no longer need.  
+- 🚀 **Full Stack** – RESTful API backend + dynamic React frontend.  
+- 💾 **Persistent Storage** – Tasks are stored in a MongoDB database.  
 
-💾 Persistent Storage: Your tasks are saved in a MongoDB database.
+---
 
-🛠️ Tech Stack
-🚀 Getting Started
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+## 🛠️ Tech Stack
 
-Prerequisites
-You need to have the following software installed on your machine:
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![React](https://img.shields.io/badge/React-%2300C4CC.svg?style=for-the-badge&logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white)
 
-Node.js (which includes npm)
+---
 
-Git
+## 🚀 Getting Started
 
-MongoDB or a MongoDB Atlas account (for the database connection string).
+Follow these steps to run the project locally.
 
-Installation & Setup
-Clone the repository to your local machine:
+### ✅ Prerequisites
+Make sure you have installed:
 
-git clone [https://github.com/your-username/mern-todo-app.git](https://github.com/your-username/mern-todo-app.git)
+- [Node.js](https://nodejs.org/) (includes npm)  
+- [Git](https://git-scm.com/)  
+- [MongoDB](https://www.mongodb.com/) or a **MongoDB Atlas account**  
+
+---
+
+### 📦 Installation & Setup
+
+Clone the repository:
+
+
+git clone https://github.com/your-username/mern-todo-app.git
 cd mern-todo-app
-
 (Replace your-username with your actual GitHub username)
 
-Set up the Backend:
-
-Navigate into the backend directory.
-
+🔹 Backend Setup
 cd backend
-
-Install the necessary npm packages.
-
 npm install
 
-Create a .env file in the backend directory. This file will hold your secret database connection string.
 
-touch .env
-
-Add your MongoDB connection URI to the .env file.
+Create a .env file inside the backend/ directory and add your MongoDB connection string:
 
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/<dbname>?retryWrites=true&w=majority
 
-Navigate back to the root directory.
+
+Go back to the root folder:
 
 cd ..
 
-Set up the Frontend:
-
-Navigate into the frontend directory.
-
+🔹 Frontend Setup
 cd frontend
-
-Install the necessary npm packages.
-
 npm install
-
-Navigate back to the root directory.
-
 cd ..
 
-Running the Application
-Now that the setup is complete, you can run both the frontend and backend servers with a single command from the root directory.
+▶️ Running the Application
+
+From the root directory, run:
 
 npm run dev
 
-Your backend server will start on http://localhost:5000 and your React frontend will open in your browser at http://localhost:3000.
+
+Backend → http://localhost:5000
+
+Frontend → http://localhost:3000
 
 📂 Project Structure
-The project is organized into two main folders:
-
 mern-todo-app/
 ├── backend/                # Express.js server & API
 │   ├── models/
 │   ├── routes/
 │   ├── .env                # (You create this)
 │   └── server.js
+│
 ├── frontend/               # React client
 │   ├── public/
 │   ├── src/
 │   └── ...
-├── .gitignore              # Files to be ignored by Git
+│
+├── .gitignore              # Files ignored by Git
 └── README.md
 
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this project and submit a Pull Request.
+
 👤 Author
+
 Shashwat Singh
+🌐 GitHub: @ShashwatS02
 
-GitHub: @ShashwatS02
-
-Feel free to reach out if you have any questions or suggestions!
+⭐ If you like this project, consider giving it a star on GitHub!
