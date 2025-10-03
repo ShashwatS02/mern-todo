@@ -4,22 +4,18 @@
   <img src="https://placehold.co/700x350/5c67f2/FFFFFF?text=MERN+To-Do+App&font=raleway" alt="Project Banner">
 </p>
 
-A clean, simple, and full-stack **To-Do List application** built with the **MERN stack** (MongoDB, Express.js, React.js, and Node.js).  
-This project demonstrates the fundamentals of building a modern web application, including:
-
-- Creating a RESTful API
-- Managing state on the frontend
-- Connecting to a database for persistence
+A **simple yet powerful To-Do List application** built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js).  
+It demonstrates the core fundamentals of building modern full-stack apps with authentication, CRUD operations, and persistent storage.  
 
 ---
 
 ## ✨ Features
 
-- 📝 **Add Tasks** – Quickly add new tasks to your list.  
-- ✅ **Mark as Complete** – Toggle tasks between complete and incomplete with a single click.  
-- 🗑️ **Delete Tasks** – Easily remove tasks you no longer need.  
-- 🚀 **Full Stack** – RESTful API backend + dynamic React frontend.  
-- 💾 **Persistent Storage** – Tasks are stored in a MongoDB database.  
+- 📝 **Add Tasks** – Create tasks instantly with a clean UI.  
+- ✅ **Mark Complete** – Toggle tasks between completed & pending.  
+- 🗑️ **Delete Tasks** – Remove unwanted tasks in one click.  
+- 🚀 **Full Stack** – REST API backend + interactive React frontend.  
+- 💾 **Persistent Storage** – MongoDB ensures data isn’t lost.  
 
 ---
 
@@ -34,62 +30,64 @@ This project demonstrates the fundamentals of building a modern web application,
 
 ## 🚀 Getting Started
 
-Follow these steps to run the project locally.
+Follow these steps to run the app locally 👇  
 
 ### ✅ Prerequisites
-Make sure you have installed:
-
-- [Node.js](https://nodejs.org/) (includes npm)  
+Install before running:
+- [Node.js](https://nodejs.org/)  
 - [Git](https://git-scm.com/)  
-- [MongoDB](https://www.mongodb.com/) or a **MongoDB Atlas account**  
+- [MongoDB](https://www.mongodb.com/) (local or Atlas cluster)  
 
 ---
 
 ### 📦 Installation & Setup
 
-Clone the repository:
-
-
-git clone https://github.com/your-username/mern-todo-app.git
+#### 1. Clone the repository  
+```bash
+git clone https://github.com/ShashwatS02/mern-todo-app.git
 cd mern-todo-app
-(Replace your-username with your actual GitHub username)
+```
 
-🔹 Backend Setup
+#### 2. Backend Setup  
+```bash
 cd backend
 npm install
+```
 
+Create a `.env` file inside `backend/` and add:  
+```env
+MONGO_URI=your_mongo_connection_string
+```
 
-Create a .env file inside the backend/ directory and add your MongoDB connection string:
-
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/<dbname>?retryWrites=true&w=majority
-
-
-Go back to the root folder:
-
+Go back to root:  
+```bash
 cd ..
+```
 
-🔹 Frontend Setup
+#### 3. Frontend Setup  
+```bash
 cd frontend
 npm install
 cd ..
+```
 
-▶️ Running the Application
-
-From the root directory, run:
-
+#### 4. Run the app  
+```bash
 npm run dev
+```
 
+- Backend → `http://localhost:5000`  
+- Frontend → `http://localhost:3000`  
 
-Backend → http://localhost:5000
+---
 
-Frontend → http://localhost:3000
-
-📂 Project Structure
+## 📂 Project Structure
+```
 mern-todo-app/
 ├── backend/                # Express.js server & API
 │   ├── models/
 │   ├── routes/
-│   ├── .env                # (You create this)
+│   ├── .env
 │   └── server.js
 │
 ├── frontend/               # React client
@@ -97,17 +95,23 @@ mern-todo-app/
 │   ├── src/
 │   └── ...
 │
-├── .gitignore              # Files ignored by Git
+├── .gitignore
 └── README.md
+```
 
-🤝 Contributing
+---
 
-Contributions, issues, and feature requests are welcome!
-Feel free to fork this project and submit a Pull Request.
+## 🤝 Contributing
+Contributions are welcome!  
+1. Fork the repo  
+2. Create a feature branch  
+3. Commit changes  
+4. Open a Pull Request 🚀  
 
-👤 Author
+---
 
-Shashwat Singh
-🌐 GitHub: @ShashwatS02
+## 👤 Author
+**Shashwat Singh**  
+🌐 GitHub: [@ShashwatS02](https://github.com/ShashwatS02)  
 
-⭐ If you like this project, consider giving it a star on GitHub!
+⭐ If you find this useful, please give it a star on GitHub!  
